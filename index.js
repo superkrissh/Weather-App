@@ -10,7 +10,7 @@ const userInfoContainer = document.querySelector(".user-info-container");
 //initially vairables need????
 
 let oldTab = userTab;
-const API_KEY = "d1845658f92b31c64bd94f06f7188c9c";
+const API_KEY = "4a3a879e880a6170dc65caf54a784497";
 oldTab.classList.add("current-tab");
 getfromSessionStorage();
 
@@ -167,4 +167,5 @@ async function fetchSearchWeatherInfo(city) {
     catch(err) {
         //hW
     }
+
 }
